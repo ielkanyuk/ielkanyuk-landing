@@ -1,0 +1,344 @@
+/*
+#------------------------------------------------------------------------
+# CloudHost - September Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+/* Style 1 */
+
+/* template.css */
+body {
+	background: #111;
+}
+a:hover,
+a:active,
+a:focus,
+#gkMainbody a,
+#gkMainbody header h1 a:active,
+#gkMainbody header h1 a:focus,
+#gkMainbody header h1 a:hover,
+#gkMainbody header h2 a:active,
+#gkMainbody header h2 a:focus,
+#gkMainbody header h2 a:hover,
+#k2Container article header h2 a:active,
+#k2Container article header h2 a:focus,
+#k2Container article header h2 a:hover,
+#gkSidebar .box a:hover { 
+	color: #00AB5C; 
+}
+#gkTopBar,
+#gkMenuWrap #gkTopBar {
+	  background: rgba(84, 193, 225, 1);
+}
+.imageBg #gkLogin,
+#gkLogin {
+	background: #00AB5C;
+	border: 1px solid #00AB5C;
+}
+#gkLogin:hover,
+.imageBg #gkLogin:hover,
+#gkMenuWrap #gkLogin:hover {
+	background: #111;
+}
+.imageBg .gk-info > a:active,
+.imageBg .gk-info > a:focus,
+.imageBg .gk-info > a:hover {
+	color: #00AB5C;
+}
+.color-icon .header > i,
+.header.color-icon > i { 
+	color: #00AB5C; 
+}
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover { 
+	color: #00AB5C!important; 
+}
+.gkPopupWrap h3 a {
+	color: #00AB5C;
+}
+
+/* joomla.css */
+button,
+.button,
+input.button,
+span.button,
+button.button,
+div.button,
+input[type="submit"],
+input[type="button"],
+.pagenav-prev a,
+.pagenav-next a,
+.readon,
+#gkMainbody .itemReadMore,
+#gkMainbody .readmore > a,
+.button.invert:active,
+.button.invert:focus,
+.button.invert:hover {
+	background: #00AB5C;
+}
+button:hover,
+.button:hover,
+input.button:hover,
+span.button:hover,
+button.button:hover,
+div.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.pagenav-prev a:hover,
+.pagenav-next a:hover,
+.readon:hover,
+#gkMainbody .itemReadMore:active,
+#gkMainbody .itemReadMore:focus,
+#gkMainbody .itemReadMore:hover,
+#gkMainbody .readmore > a:active,
+#gkMainbody .readmore > a:focus,
+#gkMainbody .readmore > a:hover,
+.button.invert {
+	background: #444;
+}
+section.categories-list ul ul { }
+section.categories-list ul ul li {
+	border-left: 3px solid #00AB5C;
+}
+th {
+	background: #00AB5C;
+}
+article header.itemHasImage h1 a:active,
+article header.itemHasImage h1 a:focus,
+article header.itemHasImage h1 a:hover { 
+	color: #00AB5C!important;
+}
+.tip-title {
+	background: #00AB5C;
+}
+#system-message dd.error { 
+	background: #c24829; 
+}
+#system-message dd.notice { 
+	background: #00AB5C; 
+}
+div.bannerfooter {
+	color: #00AB5C;
+}
+dl#tabs dt.tabs span h3 a:hover,
+dl.tabs dt.tabs span h3 a:hover { 
+	color: #00AB5C;
+}
+dl#tabs dt.tabs.open a,
+dl.tabs dt.tabs.open a {
+	color: #00AB5C;
+	border-bottom: 5px solid #00AB5C;
+}
+.result-title :before {
+	color: #00AB5C;
+}
+.autocompleter-queried { 
+	color: #00AB5C!important;
+}
+.box.menu li:hover {
+	background: #00AB5C;
+}
+
+/* gk_stuff.css */
+.nspPagination li:hover,
+.nspPagination li.active { 
+	background-color: #00AB5C; 
+}
+.nspNext:hover:after,
+.nspPrev:hover:after { 
+	color: #00AB5C; 
+}
+.readon {
+	background: rgba(62, 186, 223, 0.804);
+}
+.readon:hover {
+	background: #00AB5C;
+}
+.box.dark a.readon {
+	background: #00AB5C;
+}
+.gkPriceTable dd.gkPrice > .button {
+	background: #111;
+}
+.gkPriceTable dd.gkPrice > .button:active,
+.gkPriceTable dd.gkPrice > .button:focus,
+.gkPriceTable dd.gkPrice > .button:hover { 
+	background: #00AB5C; 
+}
+.gkPriceTable .gkPopular:before {
+	background: #9ec22a;
+}
+.gkColorPriceTable dl {
+	background: rgba(14, 168, 214, 0.702);
+}
+.gkColorPriceTable dt {
+	border-bottom: 1px solid #74b3e2;
+}
+.gkColorPriceTable dd {
+	color: #fff;
+}
+.gkColorPriceTable .gkPrice > span {
+	color: #c7e7ff;
+}
+.gkColorPriceTable .gkPrice > small {
+	color: #c7e7ff;
+}
+.gkColorPriceTable .gkLink a {
+	border: 5px solid #7ec0f2;
+	color: #00AB5C;
+}
+.gkColorPriceTable .gkLink a:active,
+.gkColorPriceTable .gkLink a:focus,
+.gkColorPriceTable .gkLink a:hover {
+	background: #7ec0f2;
+}
+.gkColorPriceTable dl.gkColor { background: rgba(159, 206, 0, 0.702); }
+.gkColorPriceTable .gkColor dt { border-bottom: 1px solid #b6d25a; }
+.gkColorPriceTable .gkColor dd { /* color: #e3f5a9;  */}
+.gkColorPriceTable .gkColor .gkPrice > span { color: #e3f5a9; }
+.gkColorPriceTable .gkColor .gkPrice > small { color: #e3f5a9; }
+.gkColorPriceTable .gkColor .gkLink a {
+	border: 5px solid #bedf54;
+	color: #9ec22a;
+}
+.gkColorPriceTable .gkColor .gkLink a:active,
+.gkColorPriceTable .gkColor .gkLink a:focus,
+.gkColorPriceTable .gkColor .gkLink a:hover {
+	background: #bedf54;
+}
+.gkColorPriceTable dl.gkPremium { 
+	background: #111; 
+}
+.gkColorPriceTable .gkPremium dt {
+	border-bottom: 1px solid #373737;
+}
+.gkColorPriceTable .gkPremium dd {
+	color: #adadad;
+}
+.gkColorPriceTable .gkPremium .gkPrice > span {
+	color: #adadad;
+}
+.gkColorPriceTable .gkPremium .gkPrice > small {
+	color: #adadad;
+	font-size: 21px;
+}
+.gkColorPriceTable .gkPremium .gkLink a {
+	border: 5px solid #757575;
+	color: #111;
+}
+.gkColorPriceTable .gkPremium .gkLink a:active,
+.gkColorPriceTable .gkPremium .gkLink a:focus,
+.gkColorPriceTable .gkPremium .gkLink a:hover {
+	background: #757575;
+}
+.gkFrame .button {
+	background: #9ec22a;
+}
+.gkFrame .button:active,
+.gkFrame .button:focus,
+.gkFrame .button:hover { 
+	background: #111; 
+}
+.gkDomainSearch div.gkBigSelect:after {
+	color: #00AB5C;
+}
+.gkDomainSearch div.gkBigSelect > ul li:hover {
+	background: #00AB5C;
+}
+.gkTestimonials .gkText > div { 
+	background: #00AB5C; 
+}
+.gkTestimonials .gkLink > div { 
+	background: #111; 
+}
+.gkPoints li span {
+	background: #00AB5C;
+}
+.gkIcon i {
+	background: #00AB5C;
+}
+.gkIcon i.dark { 
+	background: #111; 
+}
+.faq h3 {
+	color: #00AB5C;
+}
+.faq h3:before {
+	color: #00AB5C;
+}
+.hosting .features h3 i {
+	color: #00AB5C;
+}
+.hosting table thead th {
+	background: #00AB5C;
+}
+
+/* menu.css */
+#gkMainMenu .gkMenu > ul > li.active > a {
+	color: #BADB4B;	
+}
+#gkMainMenu .gkMenu > a:hover,
+#gkMainMenu .gkMenu > a:active,
+#gkMainMenu .gkMenu > a:focus,
+#gkMainMenu .gkMenu > li.active > a {
+	color: #00AB5C;
+}
+#gkMainMenu .gkMenu > ul li div.childcontent {
+	background: #00AB5C;
+}
+#gkMainMenu .gkMenu > ul li div.childcontent-inner {
+	background: #00AB5C;
+}
+#gkMainMenu .gkMenu > ul li div.childcontent li {
+	border-top: 1px solid #55acee;
+}
+#gkMainMenu .gkMenu > ul li div.childcontent li:hover {
+	 background: #55acee;
+}
+#gkMainMenu .gkMenu > ul li li div.childcontent small {
+	color: #c8e7ff;
+}
+
+/* menu-aside.css */
+#aside-menu {
+	background: #222;
+}
+
+/* k2.css */
+.k2FeedIcon a:before,
+a.k2FeedIcon:before {
+	color: #00AB5C;
+}
+.activeCategory a { 
+	color: #00AB5C;
+}
+h1 > sup,
+h2 > sup {
+	background: #00AB5C;
+}
+.itemBody > div > ul li:before {
+	color: #00AB5C;
+}
+.k2CalendarBlock table.calendar tr td.calendarDateLinked a:hover {
+	background: #00AB5C;
+}
+.k2CalendarBlock table.calendar tr td.calendarToday {
+	background: #00AB5C;
+}
+table.calendar tr td.calendarTodayLinked a {
+	color: #00AB5C;
+}
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked a:hover {
+	background: #00AB5C;
+}
+.calendarNavLink { 
+	color: #00AB5C; 
+}
+.k2TagCloudBlock a:hover { 
+	color: #00AB5C;
+}
